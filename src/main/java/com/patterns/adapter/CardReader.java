@@ -7,6 +7,7 @@ public class CardReader implements USB {
         this.memoryCard = memoryCard;
     }
 
+    @Override
     public void connectWithUsbCable() {
         this.memoryCard.insert();
     }

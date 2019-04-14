@@ -6,6 +6,7 @@ import lombok.SneakyThrows;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
+@Getter
 public class ConnectBuilder {
     private String login;
     private String password;
