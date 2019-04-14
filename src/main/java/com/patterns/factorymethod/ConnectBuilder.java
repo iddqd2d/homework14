@@ -2,6 +2,7 @@ package com.patterns.factorymethod;
 
 import lombok.Setter;
 import lombok.SneakyThrows;
+import lombok.Getter;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
